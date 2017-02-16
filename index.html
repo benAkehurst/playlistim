@@ -46,17 +46,25 @@
         <script src="app/js/site.js"></script>
 
     </head>
-    <body>       
-        
-        <!-- the view container for the mian page content -->
-        <div ng-view></div>
-                    
-        <!-- Footer for all pages -->
-        <footer>
-            <div class="navbar-fixed-bottom">
-                Playlistim &copy; 2017 | <a href="http://www.benakehurst.online" id="aboutUsLink">about us</a>
+    <body>
+
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-12">
+
+                    <!-- the view container for the mian page content -->
+                    <div ng-view></div>
+                                
+                    <!-- Footer for all pages -->
+                    <footer>
+                        <div class="navbar">
+                            Playlistim &copy; 2017 | <a href="http://www.benakehurst.online" id="aboutUsLink">about us</a>
+                        </div>
+                    </footer>
+
+                </div>
             </div>
-        </footer>
+        </div>
         
     </body>
 </html>
