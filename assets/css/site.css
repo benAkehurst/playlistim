@@ -1,0 +1,14 @@
+*{	
+	/*Sets page font via google fonts */
+	font-family: 'Lato', sans-serif;
+}
+
+.navbarBrand
+{	
+	/* sets proportions of page logo */
+    position: relative;
+    width: 170px;
+    left: 15px;
+    bottom: 10px;
+    max-height: 70px; /* height of the navbar */
+}
