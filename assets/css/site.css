@@ -3,8 +3,7 @@
 	font-family: 'Lato', sans-serif;
 }
 
-.navbarBrand
-{	
+.navbarBrand {	
 	/* sets proportions of page logo */
     position: relative;
     width: 170px;
@@ -13,11 +12,26 @@
     max-height: 70px; /* height of the navbar */
 }
 
-. {
-	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ea4141+31,dd4b4b+55,c0392b+82,c0392b+100 */
-background: #ffffff; /* Old browsers */
-background: -moz-linear-gradient(top, #ffffff 0%, #ea4141 31%, #dd4b4b 55%, #c0392b 82%, #c0392b 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(top, #ffffff 0%,#ea4141 31%,#dd4b4b 55%,#c0392b 82%,#c0392b 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(to bottom, #ffffff 0%,#ea4141 31%,#dd4b4b 55%,#c0392b 82%,#c0392b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#c0392b',GradientType=0 ); /* IE6-9 */
+/* CSS Accociated with mainpage */
+/*.featureList {
+	position: absolute;
+  	top: 0;
+	left: 0;
+	z-index: 100;
+	color: white;
+	font-size: 3vw;
+	text-align: center;
+}
+
+.ulMainPage {
+	list-style: none;
+}
+
+.mainLogo {
+	width: 80%;
+	margin: 0 auto;
+}*/
+
+.footer {
+	margin-top: 50px;
 }

@@ -2,21 +2,21 @@
 
 	"use strict";
 
-	var appModule = angular.module("appModule",["ngRoute",
-												"loginModule"
+	var appModule = angular.module("appModule",["ngRoute", 
+												"loginModule", 
 												]);
 
 	appModule.config(function($routeProvider){
 		
-		$routeProvider.when("/",{
+		$routeProvider.when("/login", {
 			controller:"LoginController",
-			templateUrl:"loginMain.html"
+			templateUrl:"loginView.html"
 		});
 
 
 		// if an unknow route is typed by the user then they are automatically directed to the login page
 		$routeProvider.otherwise({
-			redirectTo:"/login"
+			redirectTo:"/"
 		});
 
 

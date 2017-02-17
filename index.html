@@ -41,7 +41,7 @@
 		<!-- Link to appModule main file -->
         <script src="app/appModule.js"></script>
         <!-- Link to loginModule Controller -->
-        <script src="app/components/homepage/loginModule.js"></script>
+        <script src="app/loginModule.js"></script>
         <!-- Link to general site javascript -->
         <script src="app/js/site.js"></script>
 
@@ -51,13 +51,13 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-xs-12">
-
+                
                     <!-- the view container for the mian page content -->
                     <div ng-view></div>
                                 
                     <!-- Footer for all pages -->
-                    <footer>
-                        <div class="navbar">
+                    <footer class="navbar-sticky-bottom footer">
+                        <div>
                             Playlistim &copy; 2017 | <a href="http://www.benakehurst.online" id="aboutUsLink">about us</a>
                         </div>
                     </footer>
