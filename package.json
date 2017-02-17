@@ -1,0 +1,26 @@
+{
+  "name": "playlistim",
+  "version": "1.0.0",
+  "description": "These are the dependencies required to run Playlistim",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.16.1",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benAkehurst/playlistim.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benAkehurst/playlistim/issues"
+  },
+  "homepage": "https://github.com/benAkehurst/playlistim#readme"
+}

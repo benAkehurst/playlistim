@@ -8,9 +8,9 @@
 
 	appModule.config(function($routeProvider){
 		
-		$routeProvider.when("/login",{
+		$routeProvider.when("/",{
 			controller:"LoginController",
-			templateUrl:"app/components/homepage/loginMain.html"
+			templateUrl:"loginMain.html"
 		});
 
 
